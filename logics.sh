@@ -1,8 +1,10 @@
 DIR="./src"
 if [ -d "$DIR" ]; then
+echo Enter logic type:
+read type
    echo Enter logic name:
 read name
-dirs2="src/logics";
+dirs2="src/logics/$type/";
 files2="$name.js";
 eval "mkdir -p $dirs2";
 

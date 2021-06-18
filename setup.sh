@@ -9,12 +9,29 @@ alias vdt-create-reducer='chmod +x ~/reducer.sh
 '
 alias vdt-create-logic='chmod +x ~/logics.sh
 ~/logics.sh
-'" >> ~/.zshrc
+'
+alias vdt-create-modal='chmod +x ~/modal.sh
+~/modal.sh
+'
+alias vdt-create-action='chmod +x ~/action.sh
+~/action.sh
+'
 
-cp -R /screen.sh ~/
+alias vdt-create-component='chmod +x ~/component.sh
+~/component.sh
+'
+" >> ~/.zshrc
 
-cp -R /reducer.sh ~/
+cp -R screen.sh ~/
 
-cp -R /project.sh ~/
+cp -R reducer.sh ~/
 
-cp -R /project.sh ~/
+cp -R project.sh ~/
+
+cp -R project.sh ~/
+
+cp -R modal.sh ~/
+
+cp -R action.sh ~/
+
+cp -R component.sh ~/
